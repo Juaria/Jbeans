@@ -1,0 +1,2 @@
+1) Getting familiar with git & github.
+2) Upload the projects. 
