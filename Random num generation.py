@@ -2,7 +2,7 @@
 
 import random 
 
-def Rand(start, end, num): 
+def rand_array(start, end, num): 
     int_num = [] 
   
     for j in range(num): 
@@ -13,13 +13,13 @@ def Rand(start, end, num):
 num = 5
 start = 0
 end = 20
-print(Rand(start, end, num)) 
+print(rand_array(start, end, num)) 
 
 
 # Taking input values from the user and displaying it as a string.
 
-values = input("input: ")
-list = values.split(",")
-print('List : ', list)
+str = input("Enter comma seperated elements: ")
+list = str.split(",")
+print ("List: ", list) 
 
 # for example, input: cat, dog, bird ; output: ['cat' , 'dog', 'bird']
